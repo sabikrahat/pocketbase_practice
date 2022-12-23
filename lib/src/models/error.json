@@ -1,0 +1,20 @@
+{
+    "url": "http://103.113.227.244:1000/api/collections/users/records",
+    "isAbort": false,
+    "statusCode": 400,
+    "response": {
+        "code": 400,
+        "message": "Failed to create record.",
+        "data": {
+            "email": {
+                "code": "validation_invalid_email",
+                "message": "The email is invalid or already in use."
+            },
+            "password": {
+                "code": "validation_length_out_of_range",
+                "message": "The length must be between 8 and 72."
+            }
+        }
+    },
+    "originalError": null
+}
